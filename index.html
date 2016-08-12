@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<!--<link rel="icon" href="graphics/" type="image/x-icon">-->
+		<!-- For Edge -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- -->
+		<meta name="description" content="Your description goes here">
+		<meta name="keywords" content="your,keywords,goes,here">
+		<meta name="author" content="Your Name">
+		<!-- Google fonts -->
+		
+		<!-- JQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<!-- JavaScript -->
+			<!-- Remote -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+				<!-- MathJax -->
+		<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+			<!-- Local -->
+			
+		<!-- CSS -->
+			<!-- Loads bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> <!-- Has to be loaded first, else overwritten -->
+			<!-- Main CSS -->
+		<link rel="stylesheet" href="css/main.css"> <!-- Find out if i should add a media tag for a separate css for mobile -->
+	<title>Titel</title>
+</head>
+<body  id="top">
+	<div class="container">
+		<nav class="navbar navbar-fixed-top navbar-inverse"> <!-- Main navigation; navbar, static -->
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        				<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span> <!-- Dash one -->
+        				<span class="icon-bar"></span> <!-- Dash two -->
+        				<span class="icon-bar"></span> <!-- Dash three -->
+      				</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      				<ul class="nav navbar-nav navbar-right"> <!-- Intrapage navigation -->
+      					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">IntrapageNav<span class="caret"></span></a>
+          					<ul class="dropdown-menu">
+								<li><a href="#r1p1">IntrapageNav</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#r1p2">IntrapageNav</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#r2p1">IntrapageNav</a></li>
+								<li role="separator" class="divider"></li>
+			 					<li><a href="#r2p2">IntrapageNav</a></li>
+          					</ul>
+        				</li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">IntrapageNav<span class="caret"></span></a>
+          					<ul class="dropdown-menu">
+          						<li><a href="#">IntrapageNav</a></li>
+          						<li role="separator" class="divider"></li>
+                                <li><a href="#">IntrapageNav</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">IntrapageNav</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">IntrapageNav</a></li>
+          					</ul>
+          				</li>
+          				<li><a href="#top">Go to top</a></li> <!-- Go to top of page -->
+					</ul>
+					<ul class="nav navbar-nav navbar-left"> <!-- Interpage (Intersite) navigation -->
+					    <li><a href="../index.html"><img src="../graphics/Home-32.png" alt="Go to homepage" title="Go to homepage"></a></li>
+                        <li><a href="#">Other page on site</a></li>
+					</ul>
+				</div>
+				<ol class="breadcrumb"> <!-- The active list item does not invlude a link -->
+				    <li class="active">Homepage</li> <!-- Current page -->
+				</ol>
+			</div>
+		</nav> <!-- Nav ends -->
+		<div class="row"> <!-- Header -->
+			<div class="col-md-12"> <!-- Takes upp 100% row -->
+				<div class="page-title">
+					<h1>Mål</h1>
+						<h3>Något lustigt</h3>
+				</div>
+			</div>
+		</div> <!-- Header ends -->
+		<div class="row"> <!-- Section divider -->
+			<div class="col-md-12">
+				<hr> <!-- Horizontal rule -->
+			</div>
+		</div>
+		<div class="row"> <!-- Progressbar -->
+		    <h2 class="header-section">Summary of progress \o/</h2>
+		    <div class="col-md-6">
+		        <h2>Kolumn1</h2>
+		          <h3>SubSubcategory1</h3>
+		              <h4>SubSubcategory1</h4>
+		              <ul>
+                           <li>ListItem1</li>
+                               <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar"style="min-width: 2em; width: 0%">
+                                        0%
+                                    </div>
+                               </div>
+                           <li>ListItem2</li>
+                               <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar"style="min-width: 2em; width: 0%">
+                                        0%
+                                    </div>
+                               </div>
+                      </ul>
+		              <h4>SubSubcategory2</h4>
+                      <ul>
+                           <li>ListItem1</li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar"style="min-width: 2em; width: 0%">
+                                        0%
+                                    </div>
+                               </div>
+                           <li>ListItem2</li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar"style="min-width: 2em; width: 0%">
+                                        0%
+                                    </div>
+                               </div>
+                       </ul>
+		          <h3>SubSubcategory2</h3>
+		              <h4>SubSubcategory1</h4>
+		              <ul>
+                          <li>ListItem1</li>
+                            <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar"style="min-width: 2em; width: 0%">
+                                        0%
+                                    </div>
+                               </div>
+                          <li>ListItem2</li>
+                            <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar"style="min-width: 2em; width: 0%">
+                                        0%
+                                    </div>
+                               </div>
+                      </ul>
+		              <h4>SubSubcategory2</h4>
+		              <ul>
+                        <li>ListItem1</li>
+                            <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar"style="min-width: 2em; width: 0%">
+                                        0%
+                                    </div>
+                               </div>
+                        <li>ListItem2</li>
+                            <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar"style="min-width: 2em; width: 0%">
+                                        0%
+                                    </div>
+                               </div>
+                       </ul>
+		    </div>
+		    <div class="col-md-6">
+                <h2>Subcategory2</h2>
+                  <h3>SubSubcategory2</h3>
+                    <h4>SubSubcategory1</h4>
+                        <ul>
+                           <li>ListItem1</li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar"style="min-width: 2em; width: 0%">
+                                        0%
+                                    </div>
+                               </div>
+                           <li>ListItem2</li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar"style="min-width: 2em; width: 0%">
+                                        0%
+                                    </div>
+                               </div>
+                       </ul>
+                    <h4>SubSubcategory2</h4>
+                        <ul>
+                           <li>ListItem1</li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar"style="min-width: 2em; width: 0%">
+                                        0%
+                                    </div>
+                               </div>
+                           <li>ListItem2</li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar"style="min-width: 2em; width: 0%">
+                                        0%
+                                    </div>
+                               </div>
+                       </ul>
+                  <h3>SubSubcategory2</h3>
+                    <h4>SubSubcategory1</h4>
+                        <ul>
+                           <li>ListItem1</li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar"style="min-width: 2em; width: 0%">
+                                        0%
+                                    </div>
+                               </div>
+                           <li>ListItem2</li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar"style="min-width: 2em; width: 0%">
+                                        0%
+                                    </div>
+                               </div>
+                       </ul>
+                    <h4>SubSubcategory2</h4>
+                        <ul>
+                           <li>ListItem1</li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar"style="min-width: 2em; width: 0%">
+                                        0%
+                                    </div>
+                               </div>
+                           <li>ListItem2</li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar"style="min-width: 2em; width: 0%">
+                                        0%
+                                    </div>
+                               </div>
+                       </ul>
+            </div>
+		</div>
+		<div class="row"> <!-- Section divider -->
+            <div class="col-md-12">
+                <hr> <!-- Horizontal rule -->
+            </div>
+        </div>
+		<div class="row"> <!-- Använd denna rad om du vill ha två kolumner som spänner halva raden var -->
+			<div class="col-md-6"> <!-- Takes up 50% of row-->
+				<h2 class="header-section" id="r1p1">Kolumn1</h2>
+				
+					<h3 class="intraheader-section">Subcategory1</h3>
+					   <h4>SubSubcategory1</h4>
+					   <ul>
+					       <li>ListItem1</li>
+					       <li>ListItem2</li>
+					   </ul>
+					   <h4>SubSubcategory2</h4>
+					   <ul>
+					       <li>ListItem1</li>
+					       <li>ListItem2</li>
+					   </ul>
+					<h3 class="intraheader-section">Subcategory2</h3>
+					<h4>SubSubcategory1</h4>
+                       <ul>
+                           <li>ListItem1</li>
+                           <li>ListItem2</li>
+                       </ul>
+                       <h4>SubSubcategory2</h4>
+                       <ul>
+                           <li>ListItem1</li>
+                           <li>ListItem2</li>
+                       </ul>
+			</div>
+			<div class="col-md-6"> <!-- Takes up 50% of row -->
+				<h2 class="header-section" id="r1p2">Kolumn2</h2>
+					<h3 class="intraheader-section">Item1</h3>
+					   <h4>SubSubcategory1</h4>
+                       <ul>
+                           <li>ListItem1</li>
+                           <li>ListItem2</li>
+                       </ul>
+                       <h4>SubSubcategory2</h4>
+                       <ul>
+                           <li>ListItem1</li>
+                           <li>ListItem2</li>
+                       </ul>
+					<h3 class="intraheader-section">Item2</h3>
+					   <h4>SubSubcategory1</h4>
+                       <ul>
+                           <li>ListItem1</li>
+                           <li>ListItem2</li>
+                       </ul>
+                       <h4>SubSubcategory2</h4>
+                       <ul>
+                           <li>ListItem1</li>
+                           <li>ListItem2</li>
+                       </ul>
+			</div>
+		</div>
+		<div class="row"> <!-- Använd denna rad om du vill ha en kolumn som spänner hela raden -->
+		    <div class="col-md-12">
+		        <h2 class="header-section" id="r2p1">Row1</h2>
+		          <h3 class="intraheader-section">Item1</h3>
+		              <h4>SubSubcategory1</h4>
+                       <ul>
+                           <li>ListItem1</li>
+                           <li>ListItem2</li>
+                       </ul>
+                       <h4>SubSubcategory2</h4>
+                       <ul>
+                           <li>ListItem1</li>
+                           <li>ListItem2</li>
+                       </ul>
+		    </div>
+		</div>
+		<div class="row"> <!-- Använd denna rad om du vill ha en kolumn som spänner hela raden -->
+            <div class="col-md-12">
+                <h2 class="header-section" id="r2p2">Row2</h2>
+                    <h3 class="intraheader-section">Item2</h3>
+                        <h4>SubSubcategory1</h4>
+                       <ul>
+                           <li>ListItem1</li>
+                           <li>ListItem2</li>
+                       </ul>
+                       <h4>SubSubcategory2</h4>
+                       <ul>
+                           <li>ListItem1</li>
+                           <li>ListItem2</li>
+                       </ul>
+            </div>
+        </div>
+        <div class="row"> <!-- Section divider -->
+			<div class="col-md-12">
+				<hr> <!-- Horizontal rule -->
+			</div>
+		</div>
+		<div class="row"> <!-- Footer -->
+			<div class="col-md-12">
+				<p class="header-section">Written by Jakob Papirov, Uppsala, Sweden 2016</p>
+			</div>
+		</div> <!-- Footer ends -->
+		<div class="row"> <!-- Section divider -->
+            <div class="col-md-12">
+                <hr> <!-- Horizontal rule -->
+            </div>
+        </div>
+		<div class="row"> <!-- Resources used -->
+			<div class="col-md-4">
+			         <h6 class="header-section">Design</h6>
+			         <ul>
+                        <li><a href="https://getbootstrap.com" target="_blank" title="Go to bootstrap website | new tab">Bootstrap</a> (incl.  
+                        <a href="https://getbootstrap.com/components/#glyphicons" target="_blank" title="Go to Bootstrap: glyphicons | new tab">glyphicons</a>)</li>
+                     </ul>
+			    </div>
+			    <div class="col-md-4">
+			        <h6 class="header-section">Icons</h6>
+			        <ul>
+                        <li><a href="http://www.famfamfam.com/lab/icons/silk/" target="_blank" title="Go to famfamfam icons | new tab">famfamfam</a></li>
+                        <li><a href="https://icons8.com/" target="_blank" title="Go to icons8">icons8</a></li>
+                    </ul>
+			    </div>
+			    <div class="col-md-4">
+			        <h6 class="header-section">Math</h6>
+			        <ul>
+			            <li><a href="https://www.mathjax.org/" target="_blank" title="Go to mathjax website | new tab">Mathjax</a></li>
+                        <li><a href="http://firemath.info" target="_blank" title="Go to firemath | new tab">Firemath: Firefox extention</a></li>
+                    </ul>
+			    </div>
+		</div> <!-- Resources used ends -->
+	</div> <!-- container ends -->
+</body>
+</html>
