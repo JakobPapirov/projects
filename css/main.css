@@ -30,7 +30,6 @@ hr {
 	border-bottom: dashed;
 	border-color: #777;
 	padding: 0;
-	text-align: center;
 }
 .inbetween-sections {
 	border-width: 5px;
@@ -39,6 +38,12 @@ hr {
 }
 ul {
 	list-style: none;
+}
+.local {
+	font-weight: bold;
+}
+.online {
+	font-weight: bold;
 }
 .footer {
 	clear: both;
