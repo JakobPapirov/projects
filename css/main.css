@@ -2,15 +2,17 @@ body {
 	padding-top: 150px; /* To offset the fixed-top navbar */
 }
 .container {
-	max-width: 960px;
+	max-width: 1200px;
 	padding: 30px;
 	border-radius: 10px;
 	border: 5px solid black;
 	margin: auto;
+	background-color: #aba2a2;
 }
 .page-title {
 	padding: 0;
 	text-align: center;
+	overflow-x: hidden;
 }
 hr {
 	display: block;
@@ -39,12 +41,23 @@ hr {
 ul {
 	list-style: none;
 }
+tbody {
+	background-color: #ebe5ef;
+}
+th {
+	text-align: center;
+}
 .local {
 	font-weight: bold;
 }
 .online {
 	font-weight: bold;
 }
-.footer {
-	clear: both;
+footer {
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+.resources {
+	text-align: center;
 }
